@@ -30,8 +30,6 @@ form.addEventListener('submit', function(e){
     
     updateBookTableView(title, author);
   
-
-
 });
 
   
