@@ -1,0 +1,36 @@
+ <div class="field">
+            <label for="pages">Page Number:</label>
+            <input type="text" id="pages" author="pages" placeholder="Enter book page number" />
+            <small></small>
+        </div>
+
+        <div class="field">
+            <label for="read_status">Status:</label>
+            <input type="text" id="read_status" read_status="read_status" placeholder="Enter read status" />
+            <small></small>
+        </div>
+
+
+          table.forEach(book => {
+
+      let tr = document.createElement('tr');
+  
+      Object.entries(book).forEach(value => { 
+         let td = document.createElement('td');
+         td.innerHTML= value;
+         tr.appendChild(td);
+      });
+      table.appendChild(tr);
+
+
+          table.forEach(book => {
+
+      let tr = document.createElement('tr');
+  
+      Object.entries(book).forEach(value => { 
+         let td = document.createElement('td');
+         td.innerHTML= value;
+         tr.appendChild(td);
+      });
+      table.appendChild(tr);
+  });
