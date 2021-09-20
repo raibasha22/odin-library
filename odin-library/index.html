@@ -25,6 +25,20 @@
 		    <label for="author">Author:</label>
 		    <input type="text" id="author" placeholder="Enter book author" required/>	
     	</div>
+
+      <div class="field">
+		    <label for="pages">Pages number:</label>
+		    <input type="number" id="pages" placeholder="Enter pages number" required/>	
+    	</div>
+
+      <div class="field">
+		    <label for="status">Status:</label>
+        <input type="radio" name="bookStatus" value="Finished">Finished
+        <input type="radio" name="bookStatus" value="To-read">To-read
+        <input type="radio" name="bookStatus" value="In-progress">In-progress
+        
+    	</div>
+  
             
 	    <button type="submit">submit</button>
     </form>
@@ -35,6 +49,8 @@
           <tr>
             <th>author</th>
             <th>title</th>
+            <th>pages</th>
+            <th>status</th>
           </tr>
         </table>
     <div>
