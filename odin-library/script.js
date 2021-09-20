@@ -1,4 +1,4 @@
-// Let's start
+import Book from "./Book.js"
 
 let myLibrary = [
   {
@@ -80,11 +80,6 @@ function displayBookTable() {
 
 
 
-function Book(title, author) {
-  // the constructor...
-  this.title= title; 
-  this.author= author;
-}
 
 
 
